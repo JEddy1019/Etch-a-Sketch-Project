@@ -1,0 +1,16 @@
+/* body{
+    display: flex;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* color: blue; */
+}
+
+.box{
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+    /* color: blue; */
+}
