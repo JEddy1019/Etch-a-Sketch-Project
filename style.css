@@ -1,16 +1,26 @@
-/* body{
-    display: flex;
-} */
-
-.container{
-    display: flex;
-    justify-content: center;
-    /* color: blue; */
+body {
+  display: flex;
+  /* justify-content: center; */
 }
 
-.box{
-    border: 2px solid black;
-    width: 16px;
-    height: 16px;
-    /* color: blue; */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  height: 360px;
+  /* width: 360px; */
+  padding: 1px;
+  flex-basis: 360px;
+}
+
+.box {
+  display: flex;
+  border: 2px solid black;
+  width: 16px;
+  height: 16px;
+  margin: 1px;
+  flex-shrink: 0;
+  /* color: blue; */
 }
