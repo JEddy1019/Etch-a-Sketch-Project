@@ -24,3 +24,7 @@ body {
   flex-shrink: 0;
   /* color: blue; */
 }
+
+.hover {
+  color: black;
+}
