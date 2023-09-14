@@ -1,6 +1,6 @@
-.container-holder {
+/* .container-holder {
   display: flex;
-}
+} */
 
 .button-holder {
   display: flex;
@@ -21,8 +21,12 @@
 
 .box {
   display: flex;
-  width: 16px;
-  height: 16px;
+  width: 1%; /*6.25*/
+  height: 1%; /*6.25*/
+  min-height: 1%;
+  min-width: 1%;
+  /* min-width: 2px;
+  min-height: 2px; */
   margin: 0px;
   /* flex-grow: 4; */
   /* flex-shrink: 2; */
