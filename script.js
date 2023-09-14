@@ -1,22 +1,21 @@
 const body = document.body;
 const container = document.querySelector(".container");
 const gridBox = document.createElement("div");
-// const box = document.querySelectorAll(".box");
+const button = document.querySelector("#expand");
 const box = document.getElementsByClassName("box");
+let gridSize = 256;
 
-function hoverEffect() {
-  box.setAttribute("class", "hover");
-}
-
-for (let x = 0; x < 256; x++) {
+for (let x = 0; x < gridSize; x++) {
   //16x16=256
   const gridBox = document.createElement("div");
   gridBox.setAttribute("class", "box");
   container.append(gridBox);
 }
 
-for (let y = 0; y < 256; y++) {
+for (let y = 0; y < gridSize; y++) {
   box[y].addEventListener("mouseover", function hover() {
     box[y].classList.add("hover");
   });
 }
+
+function expandGrid() {}
