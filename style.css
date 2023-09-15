@@ -21,8 +21,8 @@
 
 .box {
   display: flex;
-  width: 1%; /*6.25*/
-  height: 1%; /*6.25*/
+  width: 6.25%; /*6.25*/
+  height: 6.25%; /*6.25*/
   min-height: 1%;
   min-width: 1%;
   /* min-width: 2px;
