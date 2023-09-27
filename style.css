@@ -1,20 +1,12 @@
-/* .container-holder {
-  display: flex;
-} */
-
 .button-holder {
   display: flex;
 }
 
 .container {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: flex-start; */
   flex-wrap: wrap;
-  /* flex-direction: column; */
   height: 256px;
   width: 256px;
-  /* flex-basis: 256px; */
   flex-grow: 0;
   border: 2px solid black;
 }
@@ -25,13 +17,7 @@
   height: 6.25%; /*6.25*/
   min-height: 1%;
   min-width: 1%;
-  /* min-width: 2px;
-  min-height: 2px; */
   margin: 0px;
-  /* flex-grow: 4; */
-  /* flex-shrink: 2; */
-  /* flex-basis: 16px; */
-  /* color: blue; */
   flex: 1 1 auto;
 }
 
