@@ -1,5 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .button-holder {
   display: flex;
+  margin: 12px;
+}
+
+#expand {
+  height: 48px;
+  width: 128px;
 }
 
 .container {
